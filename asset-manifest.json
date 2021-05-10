@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/duckduckgoThemeMaker/static/css/main.112e84d1.chunk.css",
-    "main.js": "/duckduckgoThemeMaker/static/js/main.7eaf6235.chunk.js",
-    "main.js.map": "/duckduckgoThemeMaker/static/js/main.7eaf6235.chunk.js.map",
+    "main.js": "/duckduckgoThemeMaker/static/js/main.64018f6f.chunk.js",
+    "main.js.map": "/duckduckgoThemeMaker/static/js/main.64018f6f.chunk.js.map",
     "runtime-main.js": "/duckduckgoThemeMaker/static/js/runtime-main.9a8b803c.js",
     "runtime-main.js.map": "/duckduckgoThemeMaker/static/js/runtime-main.9a8b803c.js.map",
     "static/js/2.b9131200.chunk.js": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9a8b803c.js",
     "static/js/2.b9131200.chunk.js",
     "static/css/main.112e84d1.chunk.css",
-    "static/js/main.7eaf6235.chunk.js"
+    "static/js/main.64018f6f.chunk.js"
   ]
 }
