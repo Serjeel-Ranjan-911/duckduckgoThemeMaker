@@ -5,13 +5,13 @@ import CreateScheme from './Pages/createScheme/createScheme';
 const Routes = () => {
 	return (
 		<Switch>
-			<Route exact path="/create-scheme">
+			<Route path="/create-scheme">
 				<CreateScheme></CreateScheme>
 			</Route>
-			<Route exact path="/popular">
+			<Route path="/popular">
 				<p>no popular themes yet</p>
 			</Route>
-			<Route exact path="/">
+			<Route path="/">
 				<Link to="/create-scheme">Create Your own theme</Link>
 				<Link to="/popular">Popular Themes</Link>
 			</Route>
