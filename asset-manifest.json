@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/duckduckgoThemeMaker/static/css/main.112e84d1.chunk.css",
+    "main.js": "/duckduckgoThemeMaker/static/js/main.7eaf6235.chunk.js",
+    "main.js.map": "/duckduckgoThemeMaker/static/js/main.7eaf6235.chunk.js.map",
+    "runtime-main.js": "/duckduckgoThemeMaker/static/js/runtime-main.9a8b803c.js",
+    "runtime-main.js.map": "/duckduckgoThemeMaker/static/js/runtime-main.9a8b803c.js.map",
+    "static/js/2.b9131200.chunk.js": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js",
+    "static/js/2.b9131200.chunk.js.map": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js.map",
+    "static/js/3.b9e8296b.chunk.js": "/duckduckgoThemeMaker/static/js/3.b9e8296b.chunk.js",
+    "static/js/3.b9e8296b.chunk.js.map": "/duckduckgoThemeMaker/static/js/3.b9e8296b.chunk.js.map",
+    "index.html": "/duckduckgoThemeMaker/index.html",
+    "static/css/main.112e84d1.chunk.css.map": "/duckduckgoThemeMaker/static/css/main.112e84d1.chunk.css.map",
+    "static/js/2.b9131200.chunk.js.LICENSE.txt": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a8b803c.js",
+    "static/js/2.b9131200.chunk.js",
+    "static/css/main.112e84d1.chunk.css",
+    "static/js/main.7eaf6235.chunk.js"
+  ]
+}
