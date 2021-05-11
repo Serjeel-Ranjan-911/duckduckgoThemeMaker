@@ -5,15 +5,17 @@ import CreateScheme from './Pages/createScheme/createScheme';
 const Routes = () => {
 	return (
 		<Switch>
-			<Route path="/create-scheme">
+			<Route path="duckduckgoThemeMaker/create-scheme">
 				<CreateScheme></CreateScheme>
 			</Route>
-			<Route path="/popular">
+			<Route path="duckduckgoThemeMaker/popular">
 				<p>no popular themes yet</p>
 			</Route>
-			<Route path="/">
-				<Link to="/create-scheme">Create Your own theme</Link>
-				<Link to="/popular">Popular Themes</Link>
+			<Route path="duckduckgoThemeMaker">
+				<Link to="duckduckgoThemeMaker/create-scheme">
+					Create Your own theme
+				</Link>
+				<Link to="duckduckgoThemeMaker/popular">Popular Themes</Link>
 			</Route>
 			<Route path="*">
 				<p>page not found</p>

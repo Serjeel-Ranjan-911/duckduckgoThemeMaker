@@ -36,7 +36,7 @@ const CreateScheme = (props) => {
 	};
 
 	const generateThemeCode = () => {
-		const code = `["7=${convertHexToNum(background)}","8=${convertHexToNum(
+		const code = `["ae=-1","7=${convertHexToNum(background)}","8=${convertHexToNum(
 			resultDesp
 		)}","9=${convertHexToNum(resultTitle)}","j=${convertHexToNum(
 			header
