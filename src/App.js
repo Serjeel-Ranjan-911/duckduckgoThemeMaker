@@ -4,7 +4,7 @@ import Routes from './Routes';
 
 function App() {
 	return (
-		<Router>
+		<Router basename="/duckduckgoThemeMaker">
 			<Routes></Routes>
 		</Router>
 	);
