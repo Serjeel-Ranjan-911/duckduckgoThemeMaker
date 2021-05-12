@@ -5,6 +5,14 @@
 	min-height: 100vh;
 }
 
+.containerCol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 .colorMenu {
 	display: flex;
 	flex: 0 0 25%;

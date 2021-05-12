@@ -12,9 +12,7 @@ const Routes = () => {
 				<p>no popular themes yet</p>
 			</Route>
 			<Route path="/">
-				<Link to="/create-scheme">
-					Create Your own theme
-				</Link>
+				<Link to="/create-scheme">Create Your own theme</Link>
 				<Link to="/popular">Popular Themes</Link>
 			</Route>
 			<Route path="*">
