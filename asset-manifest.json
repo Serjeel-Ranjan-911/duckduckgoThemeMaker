@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/duckduckgoThemeMaker/static/css/main.112e84d1.chunk.css",
-    "main.js": "/duckduckgoThemeMaker/static/js/main.d54ecc00.chunk.js",
-    "main.js.map": "/duckduckgoThemeMaker/static/js/main.d54ecc00.chunk.js.map",
-    "runtime-main.js": "/duckduckgoThemeMaker/static/js/runtime-main.9a8b803c.js",
-    "runtime-main.js.map": "/duckduckgoThemeMaker/static/js/runtime-main.9a8b803c.js.map",
-    "static/js/2.b9131200.chunk.js": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js",
-    "static/js/2.b9131200.chunk.js.map": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js.map",
-    "static/js/3.b9e8296b.chunk.js": "/duckduckgoThemeMaker/static/js/3.b9e8296b.chunk.js",
-    "static/js/3.b9e8296b.chunk.js.map": "/duckduckgoThemeMaker/static/js/3.b9e8296b.chunk.js.map",
+    "main.css": "/duckduckgoThemeMaker/static/css/main.09d49a97.chunk.css",
+    "main.js": "/duckduckgoThemeMaker/static/js/main.775881c8.chunk.js",
+    "main.js.map": "/duckduckgoThemeMaker/static/js/main.775881c8.chunk.js.map",
+    "runtime-main.js": "/duckduckgoThemeMaker/static/js/runtime-main.b7258926.js",
+    "runtime-main.js.map": "/duckduckgoThemeMaker/static/js/runtime-main.b7258926.js.map",
+    "static/js/2.f5e1368e.chunk.js": "/duckduckgoThemeMaker/static/js/2.f5e1368e.chunk.js",
+    "static/js/2.f5e1368e.chunk.js.map": "/duckduckgoThemeMaker/static/js/2.f5e1368e.chunk.js.map",
+    "static/js/3.67b543be.chunk.js": "/duckduckgoThemeMaker/static/js/3.67b543be.chunk.js",
+    "static/js/3.67b543be.chunk.js.map": "/duckduckgoThemeMaker/static/js/3.67b543be.chunk.js.map",
     "index.html": "/duckduckgoThemeMaker/index.html",
-    "static/css/main.112e84d1.chunk.css.map": "/duckduckgoThemeMaker/static/css/main.112e84d1.chunk.css.map",
-    "static/js/2.b9131200.chunk.js.LICENSE.txt": "/duckduckgoThemeMaker/static/js/2.b9131200.chunk.js.LICENSE.txt"
+    "static/css/main.09d49a97.chunk.css.map": "/duckduckgoThemeMaker/static/css/main.09d49a97.chunk.css.map",
+    "static/js/2.f5e1368e.chunk.js.LICENSE.txt": "/duckduckgoThemeMaker/static/js/2.f5e1368e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a8b803c.js",
-    "static/js/2.b9131200.chunk.js",
-    "static/css/main.112e84d1.chunk.css",
-    "static/js/main.d54ecc00.chunk.js"
+    "static/js/runtime-main.b7258926.js",
+    "static/js/2.f5e1368e.chunk.js",
+    "static/css/main.09d49a97.chunk.css",
+    "static/js/main.775881c8.chunk.js"
   ]
 }
