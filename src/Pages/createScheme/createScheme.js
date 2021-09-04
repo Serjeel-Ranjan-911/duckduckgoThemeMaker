@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { MdContentCopy } from 'react-icons/md';
@@ -39,6 +39,13 @@ const CreateScheme = (props) => {
         &kx=${convertHexToBrowser(resultURL)}
         &kaa=${convertHexToBrowser(resultVisited)}`;
 		window.open(url);
+	};
+
+	const gotoBottom = () => {
+		window.scrollTo({
+			top: document.documentElement.scrollHeight,
+			behavior: 'smooth',
+		});
 	};
 
 	const generateThemeCode = () => {
@@ -158,7 +165,9 @@ const CreateScheme = (props) => {
 						/>
 					</div>
 					<button onClick={showInBrowser}>See in browser</button>
-					<button onClick={generateThemeCode}>Get This Theme</button>
+					<button onClick={generateThemeCode}>
+						<div onClick={gotoBottom}>Get This Theme</div>
+					</button>
 					<Link to="/popular">Select from popular themes</Link>
 				</div>
 			</div>
