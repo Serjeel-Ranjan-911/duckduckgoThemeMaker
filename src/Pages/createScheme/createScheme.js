@@ -41,13 +41,6 @@ const CreateScheme = (props) => {
 		window.open(url);
 	};
 
-	const gotoBottom = () => {
-		window.scrollTo({
-			top: document.documentElement.scrollHeight,
-			behavior: 'smooth',
-		});
-	};
-
 	const generateThemeCode = () => {
 		const code = `
 	["ae=g","7=${convertHexToNum(background)}","8=${convertHexToNum(
@@ -94,6 +87,13 @@ const CreateScheme = (props) => {
 				</ul>
 			</div>
 		);
+
+		setTimeout(() => {
+			window.scrollTo({
+				top: document.documentElement.scrollHeight,
+				behavior: 'smooth',
+			});
+		}, 500);
 	};
 
 	return (
@@ -165,8 +165,12 @@ const CreateScheme = (props) => {
 						/>
 					</div>
 					<button onClick={showInBrowser}>See in browser</button>
-					<button onClick={generateThemeCode}>
-						<div onClick={gotoBottom}>Get This Theme</div>
+					<button
+						onClick={() => {
+							generateThemeCode();
+						}}
+					>
+						Get This Theme
 					</button>
 					<Link to="/popular">Select from popular themes</Link>
 				</div>
