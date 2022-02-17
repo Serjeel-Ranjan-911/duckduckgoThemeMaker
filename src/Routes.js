@@ -1,6 +1,8 @@
 import { Switch, Route, Link } from 'react-router-dom';
 
+import Home from "./Pages/Home/Home";
 import CreateScheme from './Pages/createScheme/createScheme';
+import PopularThemes from "./Pages/PopularThemes/PopularThemes"
 
 const Routes = () => {
 	return (
@@ -9,11 +11,10 @@ const Routes = () => {
 				<CreateScheme></CreateScheme>
 			</Route>
 			<Route path="/popular">
-				<p>no popular themes yet</p>
+				<PopularThemes></PopularThemes>
 			</Route>
 			<Route path="/">
-				<Link to="/create-scheme">Create Your own theme</Link>
-				<Link to="/popular">Popular Themes</Link>
+				<Home></Home>
 			</Route>
 			<Route path="*">
 				<p>page not found</p>

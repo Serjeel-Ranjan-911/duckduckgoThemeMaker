@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './Typography.css';
+import 'antd/dist/antd.css';
+import './main.less';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

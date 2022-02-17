@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { MdContentCopy } from 'react-icons/md';
+import { Button, Modal } from 'antd';
 
 import Duckduckgo from './duckduckgo/duckduckgo';
 
@@ -19,8 +20,8 @@ const CreateScheme = (props) => {
 	//input
 	const [searchBox, setSearchBox] = useState('india wiki');
 
-	//js code
-	const [themeCodeBox, setThemeCodeBox] = useState(null);
+	const [isModalVisible, setIsModalVisible] = useState(false);
+	const [code, setCode] = useState('');
 
 	const convertHexToBrowser = (hex) => {
 		return `%23${hex.slice(-6)}`;
@@ -55,49 +56,62 @@ const CreateScheme = (props) => {
 
         location.reload();
 		`;
-		console.log(code);
+		console.log(JSON.stringify({
+			"name": "Basic",
+			"background": background,
+			"header": header,
+			"resultTitle": resultTitle,
+			"resultVisited": resultVisited,
+			"resultDesp": resultDesp,
+			"resultURL": resultURL
+		}))
+		setCode(code);
+		setIsModalVisible(true);
+	};
 
-		setThemeCodeBox(
-			<div className={style.containerCol}>
-				<h4>simplest way to apply this color scheme </h4>
+	return (
+		<>
+			<Modal
+				className={style.modal}
+				title="Get your theme ☺️"
+				visible={isModalVisible}
+				onOk={() => setIsModalVisible(false)}
+				onCancel={() => setIsModalVisible(false)}
+			>
+				<p>Simplest way to apply this color scheme </p>
 				<ul>
 					<li>
 						<p>
-							go to <a href="https://duckduckgo.com">duckduckgo.com</a>
+							Go to <a href="https://duckduckgo.com">duckduckgo.com 😀</a>
 						</p>
 					</li>
 					<li>
 						<p>
-							open browser console and paste below code. (Ctrl-Shift-C or
-							Right-Click Inspect)
+							Open browser console and paste below code. (Ctrl-Shift-C or
+							Right-Click Inspect) 🤔
 						</p>
 						<CopyToClipboard
 							text={code}
 							onCopy={() => alert('copied to clipboard')}
 						>
-							<span style={{ cursor: 'pointer', fontSize: '1.6rem' }}>
+							<span
+								style={{
+									cursor: 'pointer',
+									fontSize: '1.6rem',
+									color: '#722ed1',
+								}}
+							>
 								<MdContentCopy />
 							</span>
 						</CopyToClipboard>
-						<pre>{code}</pre>
+						<code className={style.codeSnippet}>{code}</code>
 					</li>
 					<li>
-						<p>done! Enjoy you colors with privacy</p>
+						<p>Done! Enjoy you colors with privacy 🕵️</p>
 					</li>
 				</ul>
-			</div>
-		);
+			</Modal>
 
-		setTimeout(() => {
-			window.scrollTo({
-				top: document.documentElement.scrollHeight,
-				behavior: 'smooth',
-			});
-		}, 500);
-	};
-
-	return (
-		<>
 			<div className={style.container}>
 				<Duckduckgo
 					background={background}
@@ -164,19 +178,24 @@ const CreateScheme = (props) => {
 							value={resultURL}
 						/>
 					</div>
-					<button onClick={showInBrowser}>See in browser</button>
-					<button
-						onClick={() => {
-							generateThemeCode();
-						}}
-					>
-						Get This Theme
-					</button>
-					<Link to="/popular">Select from popular themes</Link>
+
+					<div className={style.buttonContainer}>
+						<Button onClick={showInBrowser} type="primary">
+							See in browser
+						</Button>
+						<Button
+							onClick={() => {
+								generateThemeCode();
+							}}
+						>
+							Get This Theme
+						</Button>
+						<Button type="link">
+							<Link to="/popular">Select from popular themes</Link>
+						</Button>
+					</div>
 				</div>
 			</div>
-
-			{themeCodeBox}
 		</>
 	);
 };

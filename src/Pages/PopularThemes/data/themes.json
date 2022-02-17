@@ -1,0 +1,101 @@
+[
+	{
+		"name": "Basic",
+		"background": "#ffffff",
+		"header": "#262626",
+		"resultTitle": "#1a0dab",
+		"resultVisited": "#5500a3",
+		"resultDesp": "#444444",
+		"resultURL": "#006621"
+	},
+	{
+		"name": "Hackpot Under The Sea",
+		"background": "#073130",
+		"header": "#073130",
+		"resultTitle": "#52c934",
+		"resultVisited": "#00a36b",
+		"resultDesp": "#8ff0a4",
+		"resultURL": "#26a269"
+	},
+	{
+		"name": "Pop N Lock",
+		"background": "#202135",
+		"header": "#2b2041",
+		"resultTitle": "#813d9c",
+		"resultVisited": "#c061cb",
+		"resultDesp": "#daafe8",
+		"resultURL": "#79b2f7"
+	},
+	{
+		"name": "GruvBox Material Soft",
+		"background": "#33312f",
+		"header": "#231e19",
+		"resultTitle": "#865e3c",
+		"resultVisited": "#b48966",
+		"resultDesp": "#f7dbc5",
+		"resultURL": "#ffbe7e"
+	},
+	{
+		"name": "SynthWave '84",
+		"background": "#262234",
+		"header": "#241b2e",
+		"resultTitle": "#99c1f1",
+		"resultVisited": "#616b77",
+		"resultDesp": "#b4ccea",
+		"resultURL": "#9141ac"
+	},
+	{
+		"name": "Winter Is Coming",
+		"background": "#001629",
+		"header": "#00a0db",
+		"resultTitle": "#1c71d8",
+		"resultVisited": "#99c1f1",
+		"resultDesp": "#e1c8b0",
+		"resultURL": "#99c1f1"
+	},
+	{
+		"name": "Shades of Purple",
+		"background": "#2c2857",
+		"header": "#1e1e41",
+		"resultTitle": "#dc8add",
+		"resultVisited": "#813d9c",
+		"resultDesp": "#a383d5",
+		"resultURL": "#813d9c"
+	},
+	{
+		"name": "Cobalt2",
+		"background": "#193549",
+		"header": "#102739",
+		"resultTitle": "#62a0ea",
+		"resultVisited": "#99c1f1",
+		"resultDesp": "#deddda",
+		"resultURL": "#8aabdd"
+	},
+	{
+		"name": "Radical",
+		"background": "#151322",
+		"header": "#ff065b",
+		"resultTitle": "#ff065b",
+		"resultVisited": "#ea5c8c",
+		"resultDesp": "#f9b3cb",
+		"resultURL": "#a53551"
+	},
+	{
+		"name": "Merko",
+		"background": "#0b0e0b",
+		"header": "#abd21e",
+		"resultTitle": "#abd21e",
+		"resultVisited": "#d5eb84",
+		"resultDesp": "#e9f9af",
+		"resultURL": "#e9fd5a"
+	},
+	{
+		"name": "Glass UI",
+		"background": "#fefeff",
+		"header": "#f84341",
+		"resultTitle": "#ff1212",
+		"resultVisited": "#f66151",
+		"resultDesp": "#4b0000",
+		"resultURL": "#802026"
+	}
+]

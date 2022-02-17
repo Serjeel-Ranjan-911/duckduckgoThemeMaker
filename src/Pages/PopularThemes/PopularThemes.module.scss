@@ -1,0 +1,35 @@
+.pageContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.singleTheme{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 100vh;
+    margin: 1rem;
+    border-bottom: 1px solid rgb(46, 46, 46);
+}
+.duckContainer{
+    width: 60vw;
+}
+
+.modal{
+	width: 70vw;
+	background-color: #1E2528 !important;
+	> * {
+		color: white;
+		background-color: #30363D !important;
+	}
+}
+
+.codeSnippet{
+	color: #a0faff;;
+	padding: 1rem;
+}

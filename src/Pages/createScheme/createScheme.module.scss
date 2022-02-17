@@ -22,6 +22,7 @@
 	width: 100%;
 	height: 100%;
 	margin: 0 2rem;
+	color: rgb(206, 206, 206);
 	&__picker {
 		display: flex;
 		justify-content: flex-start;
@@ -32,4 +33,25 @@
 			margin-left: auto;
 		}
 	}
+}
+
+.buttonContainer{
+	display: flex;
+	flex-direction: column;
+	* > {
+		margin: 1rem;
+	}
+}
+.modal{
+	width: 70vw;
+	background-color: #1E2528 !important;
+	> * {
+		color: white;
+		background-color: #30363D !important;
+	}
+}
+
+.codeSnippet{
+	color: #a0faff;;
+	padding: 1rem;
 }

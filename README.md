@@ -1,17 +1,19 @@
 <h1 align="center">DuckDuckGo Theme Maker</h1>
 
-<p align="center">
+<div align="center">
 
-![APM](https://img.shields.io/apm/l/npm)
-![GitHub issues](https://img.shields.io/github/issues-raw/Serjeel-Ranjan-911/duckduckgoThemeMaker)
-![GitHub contributors](https://img.shields.io/github/contributors/Serjeel-Ranjan-911/duckduckgoThemeMaker)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+![GitHub contributors](https://img.shields.io/github/contributors/Serjeel-Ranjan-911/duckduckgoThemeMaker?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Serjeel-Ranjan-911/duckduckgoThemeMaker?style=for-the-badge)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-yellow.svg?style=for-the-badge)](http://makeapullrequest.com)
 
-</p>
+</div>
 
 <p align="center">
   <img src="./assets/ddgthemegif.gif" width="700" height="400"/>
 </p>
+
+<a href="https://serjeel-ranjan-911.github.io/duckduckgoThemeMaker/" target="_blank"><img src="./assets/click.png" alt="Click Here to use app" style="height: 35px !important;width: 145px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, .2) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, .2) !important;" >
+
 
 ## Contributors
 
