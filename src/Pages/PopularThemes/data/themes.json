@@ -97,5 +97,41 @@
 		"resultVisited": "#f66151",
 		"resultDesp": "#4b0000",
 		"resultURL": "#802026"
+	},
+	{
+		"name": "Night Owl",
+		"background": "#08177b",
+		"header": "#050e4b",
+		"resultTitle": "#d2d2d2",
+		"resultVisited": "#b7a703",
+		"resultDesp": "#ebebeb",
+		"resultURL": "#00d6ff"
+	},
+	{
+		"name": "Angelic",
+		"background": "#ffffff",
+		"header": "#ffffff",
+		"resultTitle": "#fccb00",
+		"resultVisited": "#b39000",
+		"resultDesp": "#6b6b6b",
+		"resultURL": "#c9d400"
+	},
+	{
+		"name": "Camel",
+		"background": "#dd8b03",
+		"header": "#ffc400",
+		"resultTitle": "#85827f",
+		"resultVisited": "#b39000",
+		"resultDesp": "#adadac",
+		"resultURL": "#9e7242"
+	},
+	{
+		"name": "Icy",
+		"background": "#009fff",
+		"header": "#3b00ff",
+		"resultTitle": "#57d37d",
+		"resultVisited": "#1c9c43",
+		"resultDesp": "#c8cfca",
+		"resultURL": "#0032ff"
 	}
 ]
